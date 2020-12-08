@@ -1,0 +1,54 @@
+
+html,body{
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(257, 40%, 49%);
+    font-family: open sans;
+}
+.middle-text{
+ display: grid;
+ grid-template-columns: auto auto;
+ color: white
+}
+.image{
+    padding: 20px;
+    margin: 10px;
+}
+.text{
+    font-size: 18px;    
+    padding: 40px;
+    margin: 40px
+}
+button{
+    height:50px;
+    width: 150px;
+    background-color: white;
+    color:  hsl(257, 40%, 49%);
+    border: none;
+    border-radius: 20px
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 375px)
+{
+    html,body{  
+        background-image: url(images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 300%
+    }
+    .image{
+        width: 150%
+    }
+    .middle-text{
+        display: block
+    }
+    .text{
+        text-align: center;
+    }
+}
+
