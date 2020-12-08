@@ -39,16 +39,22 @@ button{
     html,body{  
         background-image: url(bg-desktop.svg);
         background-repeat: no-repeat;
-        background-size: 300%
+        background-size: 200%;
+        text-align: center
     }
     .image{
-        width: 150%
+        margin: auto;
+        padding: 20px
     }
     .middle-text{
-        display: block
+        display: block;
+        background-size: cover;
+        padding: 20px
     }
-    .text{
-        text-align: center;
-    }
+    .image img{
+      width:95%
 }
-
+   .top-section{
+       width: 55%
+                  }
+  }
