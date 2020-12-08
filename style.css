@@ -1,6 +1,6 @@
 
 html,body{
-    background-image: url(images/bg-desktop.svg);
+    background-image: url(bg-desktop.svg);
     background-repeat: no-repeat;
     background-color:  hsl(257, 40%, 49%);
     font-family: open sans;
@@ -37,7 +37,7 @@ button{
 @media only screen and (max-width: 375px)
 {
     html,body{  
-        background-image: url(images/bg-desktop.svg);
+        background-image: url(bg-desktop.svg);
         background-repeat: no-repeat;
         background-size: 300%
     }
